@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+		<title>Xác Nhận Đặt Hàng</title>
+		<link rel="stylesheet" type="text/css" href="../FileCSS/DangKyCSS.css" media="all" />
+		<link rel="shortcut icon" type="image/x-icon" href="../../image/logo/IconWeb.png">
+	<style>
+		body{
+			background-image: url("../../image/background/Nen1.jpg");
+		}
+	</style>
+    </head>
+    <body>
+		
+		
+		<div>
+			<center><h2 style="color:blue">XÁC NHẬN ĐẶT HÀNG</h2></center>
+		    <form  action="mailto: phanhoangnamst@gmail.com" method="POST" enctype="text/plain">
+				<center>
+			    <label for="name" style="color:blue; margin-left: -320px">Họ Và Tên</label><br>
+			    <input type="text" id="name" name="Name" required placeholder="Nhập họ và tên..."><br>
+
+			    <label for="Email" style="color:blue; margin-left: -350px">Email</label><br>
+			    <input type="text" id="Email" required name="Email" value="" placeholder="Nhập email..."><br>
+
+			    <label for="phone" style="color:blue; margin-left: -300px">Số Điện Thoại</label><br>
+			    <input type="text" id="phone" required name="Phone" placeholder="Nhập số điện thoại..."><br>
+					   
+			    <label for="address" style="color:blue; margin-left: -340px">Địa Chỉ</label><br>
+			    <input type="text" required id="address" name="Address" placeholder="Nhập địa chỉ..."><br>
+
+			    <input type="text" name="" readonly value="GIỎ HÀNG" style="text-align: center; color: blue" ><br>
+				<input type="text" name="1" readonly value="Đừng Bao Giờ Đi Ăn Một Mình" ><br>
+				<input type="text" name="2" readonly value="Tony Buổi Sáng - Trên Đường Băng (Tái Bản 2017)" ><br>
+				<input type="text" name="3" readonly value="Nhà Giả Kim" ><br>
+				<input type="text" name="4" readonly value="Tuổi Trẻ Đáng Giá Bao Nhiêu" ><br>
+				<input type="text" name="5" readonly value="Code Dạo Ký Sự - Lập Trình Viên Đâu Phải Chỉ Biết Code" ><br>
+			
+			<input type="submit" id="btn" value="Xác Nhận" style="margin-left: -20px">
+			</center>
+		   </form>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+body{
+	background-image: url("../../image/background/DangKy.jpg");
+	height: 100%;
+			background-position: left,bottom;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+
+}
+.container {
+	        	width: 400px;
+				margin-left: 800px;
+			    border-radius: 5px;
+			    padding: 20px;
+	        }
+          	input[type=text] {
+			    width: 400px;
+			    padding: 12px;
+			    border: 1px solid #ccc;
+			    border-radius: 4px;
+			    box-sizing: border-box;
+			    margin-top: 10px;
+			    margin-bottom: 16px;
+			    resize: vertical;
+			}
+			input[type=password] {
+			    width: 400px;
+			    padding: 12px;
+			    border: 1px solid #ccc;
+			    border-radius: 4px;
+			    box-sizing: border-box;
+			    margin-top: 10px;
+			    margin-bottom: 16px;
+			    resize: vertical;
+			}
+
+			button,input[type=submit] {
+			    background-color: #4CAF50;
+			    color: white;
+			    padding: 12px 20px;
+			    border: none;
+			    border-radius: 4px;
+			    cursor: pointer;
+				margin-left: 90px
+			}
+			button,input[type=submit]:hover {
+			    background-color: #45a049;
+			}
